@@ -1,0 +1,13 @@
+Package: shinyModals
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Functions for extending shinydashboard functionality. Functions are in the form of shiny modules and generally focus on expanding functionality of existing dshboard elements such as shiny Modal Dialog and InfoBox.
+    For example, RobustActionButton is a shiny action button but with TryCatch functionality to send the user an error message in a modal box instead of booting the user from the server. The package has several such functions that 
+    mix existing shiny elements to create helpful mini modules 
+Depends: R (>= 3.4.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shinyjs
