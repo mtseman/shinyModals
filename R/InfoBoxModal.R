@@ -50,7 +50,7 @@ InfoBoxModal_UI<-function(id,title='My InfoModalBox',color='red',value=100,icon=
 InfoBoxModal<-function(input,output,session,title="My InfoModalBox Modal Title",size='l',elements){
 
     #Use shiny js to create click event to call modal dialog
-    onclick("box1",showModal(dataModal_InfoBox(title=paste('Complete data set for ',"mtcars",sep=''))))
+    onclick("box1",showModal(dataModal_InfoBox(title)))
 
     #Based on shiny Modal Dialog but customized some here
     dataModal_InfoBox<-function(title='Complete Dataset for mtcars'){
