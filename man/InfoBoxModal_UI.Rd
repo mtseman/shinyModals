@@ -4,8 +4,8 @@
 \alias{InfoBoxModal_UI}
 \title{InfoBoxModal_UI}
 \usage{
-InfoBoxModal_UI(id, title = "My InfoModalBox", color = "green",
-  value = 100, icon = "thumbs-up")
+InfoBoxModal_UI(id, title = "My InfoModalBox", color = "red", value = 100,
+  icon = "thumbs-up")
 }
 \arguments{
 \item{id}{Unique Identifier for the UI in the shiny app UI}
