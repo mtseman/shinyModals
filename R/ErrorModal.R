@@ -82,7 +82,7 @@ ErrorModal<-function(input,output,session,title="Error",subtitle=NULL,message='S
 
         try_this_all<-function(try_this){
 
-          try_this()
+          try_this
 
           #if(include.successModal==T){
 
@@ -91,8 +91,8 @@ ErrorModal<-function(input,output,session,title="Error",subtitle=NULL,message='S
 
         }
 
-        robust_do<-tryCatch(try_this_all,
-                                warning=function(w){try_this_all},
+        robust_do<-tryCatch(try_this,
+                                warning=function(w){try_this},
                                 error=function(e){
 
                                     showModal(Dialog_Error())
